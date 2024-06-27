@@ -4,7 +4,7 @@ import { sendMessage } from '../api/sendMessage.js';
 
 const phoneNumber = '5554996123121';
 const templateName = 'captacao_sim_black_jun24'; // Substitua pelo nome do seu template
-const params = ['matheus', '01/01/24']; // Substitua pelos parâmetros desejados
+const params = ['Monique', '01/01/24']; // Substitua pelos parâmetros desejados
 
 async function processMessage() {
   try {
