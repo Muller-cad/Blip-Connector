@@ -2,7 +2,7 @@ import axios from 'axios';
 import config from '../config/config.js';
 
 export async function sendMessage(phoneNumber, templateName, params, guid) {
-  const url = config.apiUrl;
+  const url = config.apiUrlMessage;
   const data = {
     id: guid, // Use o GUID fornecido
     to: `${phoneNumber}@wa.gw.msging.net`,

@@ -3,7 +3,7 @@ import config from '../config/config.js';
 import { generateGUID } from '../utils/generateGUID.js';
 
 export async function getIdentifier(phoneNumber) {
-  const url = config.apiUrl;
+  const url = config.apiUrlIdentifier;
   const guid = generateGUID(); // Gere o GUID aqui
   const data = {
     id: guid,

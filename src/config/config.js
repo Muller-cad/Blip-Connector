@@ -1,6 +1,7 @@
 const config = {
-    apiUrl: 'https://clinicasim.http.msging.net/commands',
-    apiToken: process.env.API_TOKEN // Mova isso para um arquivo .env
+    apiUrlIdentifier: process.env.API_URL_IDENTIFIER,
+    apiUrlMessage:process.env.API_URL_MESSAGE,
+    apiToken: process.env.API_TOKEN
   };
   
   export default config;

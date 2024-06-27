@@ -5,11 +5,10 @@
   "main": "src/app.js",
   "type": "module",
   "scripts": {
-    "start": "node src/app.js",
-    "process-message": "node src/scripts/processMessage.mjs"
+    "start": "node src/scripts/processMessage.js"
   },
-  "type": "module",
   "dependencies": {
-    "axios": "^1.7.2"
+    "axios": "^0.21.1",
+    "dotenv": "^8.6.0"
   }
 }
